@@ -14,6 +14,15 @@ Ideal for small to medium projects where you need to control request frequency w
 
 ---
 
+
+### Related Article
+You can read the full tutorial here:
+
+- [Building a Lightweight API Rate Limiter in Node.js Without External Libraries](https://tobechiduru.hashnode.dev/building-a-lightweight-api-rate-limiter-in-nodejs-without-external-libraries)
+
+
+---
+
 ## Installation
 
 Clone this repository:
@@ -22,11 +31,9 @@ Clone this repository:
 git clone https://github.com/tobe01/micro-rate-limiter.git
 cd micro-rate-limiter
 npm install
-Usage
+
 Basic Setup
-javascript
-Copy
-Edit
+
 // server.js
 const express = require('express');
 const rateLimiter = require('../src/rateLimiter');
@@ -48,18 +55,13 @@ An HTML + CSS test client is included in the /example folder.
 
 Start the server:
 
-bash
-Copy
-Edit
 node example/server.js
 Open example/test-limiter.html in your browser.
 
 Click Start Test to fire multiple requests and see the limiter in action, including a live countdown until reset.
 
-Folder Structure
-graphql
-Copy
-Edit
+Folder Structure:
+
 micro-rate-limiter/
 │
 ├── src/
@@ -72,6 +74,7 @@ micro-rate-limiter/
 │
 ├── package.json
 └── README.md
+
 Customization
 The rateLimiter function accepts an options object:
 
@@ -81,19 +84,11 @@ max	Number	10	Max requests per IP within the window
 
 Example:
 
-javascript
-Copy
-Edit
-rateLimiter({ windowMs: 30000, max: 5 }) // 5 requests every 30 seconds
-Related Article
-You can read the full tutorial here:
-- [Building a Lightweight API Rate Limiter in Node.js Without External Libraries](https://tobechiduru.hashnode.dev/building-a-lightweight-api-rate-limiter-in-nodejs-without-external-libraries)
+javascript rateLimiter({ windowMs: 30000, max: 5 }) // 5 requests every 30 seconds
 
 License
 MIT License. Free to use, modify, and share.
 
 Made with ❤️ in Node.js
-
-yaml
 Copy
 Edit
