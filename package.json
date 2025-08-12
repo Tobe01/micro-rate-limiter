@@ -1,0 +1,12 @@
+{
+  "name": "micro-rate-limiter",
+  "version": "0.1.0",
+  "description": "Lightweight rate limiter for Node.js (in-memory + Express middleware)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": ["rate-limiter","node","express","lightweight"],
+  "license": "MIT"
+}
