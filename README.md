@@ -27,12 +27,11 @@ You can read the full tutorial here:
 
 Clone this repository:
 
-```bash
 git clone https://github.com/tobe01/micro-rate-limiter.git
 cd micro-rate-limiter
 npm install
 
-Basic Setup
+## Basic Setup
 
 // server.js
 const express = require('express');
@@ -60,7 +59,7 @@ Open example/test-limiter.html in your browser.
 
 Click Start Test to fire multiple requests and see the limiter in action, including a live countdown until reset.
 
-Folder Structure:
+## Folder Structure:
 
 micro-rate-limiter/
 │
@@ -75,7 +74,7 @@ micro-rate-limiter/
 ├── package.json
 └── README.md
 
-Customization
+## Customization
 The rateLimiter function accepts an options object:
 
 Option	Type	Default	Description
