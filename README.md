@@ -90,5 +90,3 @@ License
 MIT License. Free to use, modify, and share.
 
 Made with ❤️ in Node.js
-Copy
-Edit
