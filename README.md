@@ -105,4 +105,4 @@ javascript rateLimiter({ windowMs: 30000, max: 5 }) // 5 requests every 30 secon
 License
 Free to use, modify, and share.
 
-Made with ❤️ in Node.js
+Made in Node.js with ❤️ by Tobechi
