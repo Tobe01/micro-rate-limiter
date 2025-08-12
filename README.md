@@ -87,7 +87,7 @@ Edit
 rateLimiter({ windowMs: 30000, max: 5 }) // 5 requests every 30 seconds
 Related Article
 You can read the full tutorial here:
-Building a Lightweight API Rate Limiter in Node.js Without External Libraries
+- [Building a Lightweight API Rate Limiter in Node.js Without External Libraries](https://tobechiduru.hashnode.dev/building-a-lightweight-api-rate-limiter-in-nodejs-without-external-libraries)
 
 License
 MIT License. Free to use, modify, and share.
@@ -97,5 +97,3 @@ Made with ❤️ in Node.js
 yaml
 Copy
 Edit
-
----
