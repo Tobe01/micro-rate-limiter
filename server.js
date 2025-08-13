@@ -1,5 +1,5 @@
 import express from 'express'
-import { RateLimiter, createExpressMiddleware } from '../src/index.js'
+import { RateLimiter, createExpressMiddleware } from './src/index.js'
 
 const app = express()
 const limiter = new RateLimiter({ windowMs: 60_000, max: 10 })
